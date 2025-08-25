@@ -7,8 +7,38 @@ It is designed to help the team practice working with API routes, GraphQL querie
 
 The backend data is stored in a JSON file (`/data/movies.json`). **Please copy the initial data from `/data/initial_movies.json` to `/data/movies.json` before starting.**
 
-- Data persists across requests.
-- Data resets when the server restarts.
+---
+
+## Initial Setup
+
+You can either **fork the repository** or **use it as a template** to create a new repository:
+
+1. **Use this repo as a template**: Click _Use this template_ on GitHub to create your own repository.
+   ![Create Template](create_template.png)
+2. Clone your repository:
+
+   ```bash
+   git clone <your-repo-url>
+   cd <repo-folder>
+   ```
+
+3. Copy initial data:
+
+   ```bash
+   cp data/initial_movies.json data/movies.json
+   ```
+
+4. Install dependencies:
+
+   ```bash
+   npm install
+   ```
+
+5. Start development server:
+
+   ```bash
+   npm run dev
+   ```
 
 ---
 
