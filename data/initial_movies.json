@@ -1,0 +1,63 @@
+[
+  {
+    "id": "1",
+    "title": "Inception",
+    "description": "A thief enters dreams to steal secrets.",
+    "poster": "https://picsum.photos/seed/inception/300/450",
+    "rating": 4.5,
+    "reviews": [
+      "Amazing visuals!",
+      "Complex but great."
+    ],
+    "category": "Sci-Fi"
+  },
+  {
+    "id": "2",
+    "title": "Interstellar",
+    "description": "Explorers travel through a wormhole to save humanity.",
+    "poster": "https://picsum.photos/seed/interstellar/300/450",
+    "rating": 4.8,
+    "reviews": [],
+    "category": "Sci-Fi"
+  },
+  {
+    "id": "3",
+    "title": "The Dark Knight",
+    "description": "Batman faces the Joker in Gotham.",
+    "poster": "https://picsum.photos/seed/darkknight/300/450",
+    "rating": 5,
+    "reviews": [
+      "Best Batman ever!"
+    ],
+    "category": "Action"
+  },
+  {
+    "id": "4",
+    "title": "The Notebook",
+    "description": "A romantic drama spanning decades.",
+    "poster": "https://picsum.photos/seed/notebook/300/450",
+    "rating": 3.9,
+    "reviews": [],
+    "category": "Romance"
+  },
+  {
+    "id": "5",
+    "title": "The Hangover",
+    "description": "Friends wake up after a wild night in Vegas.",
+    "poster": "https://picsum.photos/seed/hangover/300/450",
+    "rating": 4.1,
+    "reviews": [
+      "Hilarious movie!"
+    ],
+    "category": "Comedy"
+  },
+  {
+    "id": "1756098743166",
+    "rating": 0,
+    "reviews": [],
+    "title": "Interstellar",
+    "description": "Exploring space and time",
+    "poster": "https://picsum.photos/seed/interstellar/300/450",
+    "category": "Sci-Fi"
+  }
+]

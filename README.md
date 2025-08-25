@@ -5,7 +5,7 @@
 This boilerplate is a **movie catalog application** built with **Next.js App Router**, **GraphQL Yoga**, and **HeroUI**.
 It is designed to help the team practice working with API routes, GraphQL queries/mutations, Server Actions, and UI integration using HeroUI.
 
-The backend data is stored in a JSON file (`/data/movies.json`).
+The backend data is stored in a JSON file (`/data/movies.json`). **Please copy the initial data from `/data/initial_movies.json` to `/data/movies.json` before starting.**
 
 - Data persists across requests.
 - Data resets when the server restarts.
@@ -93,11 +93,17 @@ Default queries loaded in the explorer:
 ### Deploy on Vercel (UI Method)
 
 1. **Create a Vercel account**: [https://vercel.com/signup](https://vercel.com/signup).
+
 2. **Push your project to GitHub (or GitLab/Bitbucket)**.
+
 3. **Import project into Vercel**: [https://vercel.com/dashboard](https://vercel.com/dashboard) → _New Project_.
+
 4. Select your repo and click **Import**.
+
 5. Vercel auto-detects Next.js, leave defaults (`next build`, `.next`).
+
 6. Click **Deploy**.
+
 7. You’ll get a live URL like:
 
    ```

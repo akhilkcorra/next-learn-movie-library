@@ -1,3 +1,87 @@
 @import "tailwindcss";
 
+@layer base {
+
+    /* Body */
+    body {
+        font-family: var(--font-sans);
+        font-size: var(--text-base);
+        line-height: 1.5;
+        color: var(--color-text);
+        background-color: var(--color-bg);
+    }
+
+    /* Headings */
+    h1 {
+        font-size: var(--text-6xl);
+        font-weight: var(--font-weight-bold);
+        margin-bottom: theme('spacing.1');
+    }
+
+    h2 {
+        font-size: var(--text-4xl);
+        font-weight: var(--font-weight-bold);
+        margin-bottom: theme('spacing.1');
+    }
+
+    h3 {
+        font-size: var(--text-3xl);
+        font-weight: var(--font-weight-bold);
+        margin-bottom: theme('spacing.1');
+    }
+
+    h4 {
+        font-size: var(--text-2xl);
+        font-weight: var(--font-weight-bold);
+        margin-bottom: theme('spacing.1');
+    }
+
+    h5 {
+        font-size: var(--text-xl);
+        font-weight: var(--font-weight-bold);
+        margin-bottom: theme('spacing.1');
+    }
+
+    h6 {
+        font-size: var(--text-lg);
+        font-weight: var(--font-weight-bold);
+        margin-bottom: theme('spacing.1');
+    }
+
+    /* Paragraphs */
+    p {
+        font-size: var(--text-base);
+
+        &:not(:last-child) {
+            margin-bottom: theme('spacing.1');
+        }
+    }
+
+    /* Links */
+    a {
+        color: var(--color-primary);
+        text-decoration: underline;
+    }
+
+    a:hover {
+        color: var(--color-primary-hover);
+    }
+
+    /* Blockquotes */
+    blockquote {
+        margin: theme('spacing.4') 0;
+        padding-left: theme('spacing.4');
+        border-left: 4px solid var(--color-primary);
+        color: var(--color-muted);
+        font-style: italic;
+    }
+
+    /* Horizontal rules */
+    hr {
+        border: 0;
+        border-top: 1px solid var(--color-border);
+        margin: theme('spacing.6') 0;
+    }
+}
+
 @config "../tailwind.config.js"
